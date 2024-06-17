@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nallumas</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Remixicon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="alert">
+            <div class="container">
+                <p class="alert-text">Free Shipping Over RS.799.00 | Get offers on selected products</p>
+            </div>
+        </div>
+        <div class="header-main" data-header>
+            <div class="container">
+                <button class="nav-open-btn" data-nav-toggler>
+                    <i class="ri-menu-2-line"></i>
+                </button>
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo.png" loading="lazy" width="179" height="26" alt="Nallumas">
+                </a>
+                <nav class="navbar">
+                    <ul class="navbar-list">
+                        <li>
+                            <a href="index.html" class="navbar-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="menu.html" class="navbar-link">Menu</a>
+                        </li>
+                        <li>
+                            <a href="products.html" class="navbar-link">Products</a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="navbar-link">About</a>
+                        </li>
+                    </ul>
+                    <button class="navbar-btn"><i class="ri-user-fill"></i></button>
+                    <button class="navbar-btn"><span class="count">1</span><i class="ri-shopping-cart-2-fill"></i></button>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <!-- MOBILE NAVBAR -->
+    <div class="sidebar">
+        <div class="mobile-navbar" data-navbar>
+            <div class="wrapper">
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo.png" loading="lazy" width="179" height="26" alt="Nallumas">
+                </a>
+                <button class="nav-close-btn" data-nav-toggler>
+                    <i class="ri-close-line"></i>
+                </button>
+            </div>
+            <ul class="navbar-list">
+                <li><a href="index.html" class="navbar-link" data-nav-link>Home</a></li>
+                <li><a href="menu.html" class="navbar-link" data-nav-link>Menu</a></li>
+                <li><a href="products.html" class="navbar-link" data-nav-link>Products</a></li>
+                <li><a href="about.html" class="navbar-link" data-nav-link>About</a></li>
+            </ul>
+        </div>
+        <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+    
+    <main>
+        <!-- PRODUCT DETAILS -->
+        <section class="section product-details" data-section>
+            <div class="container">
+                <div class="product-container">
+                    <div class="product-image">
+                        <img src="assets/images/veg.png" loading="lazy" class="veg" alt="">
+                        <img src="assets/images/mango.png" loading="lazy" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h1 class="product-name">MANGO</h1>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-count">14</span>
+                        </div>
+                        <p class="product-price">Rs.100 <span class="product-weight">(200GM)</span></p>
+                        <div class="quantity-controls">
+                            <div class="quantity-btn-wrapper">
+                                <button class="quantity-btn">-</button>
+                                <input type="text" value="1" class="quantity-input">
+                                <button class="quantity-btn">+</button>
+                            </div>
+                            <button class="add-to-cart-btn">ADD TO CART</button>
+                        </div>
+                        <p class="available-sizes">Available Sizes</p>
+                        <div class="size-options">
+                            <button class="size-btn">200 GM</button>
+                            <button class="size-btn">400 GM</button>
+                            <button class="size-btn" disabled>600 GM</button>
+                        </div>
+                        <div class="delivery-section">
+                            <p class="delivery-address"><i class="ri-map-pin-2-fill"></i>Delivery address</p>
+                            <input type="text" placeholder="Enter address/pincode" class="address-input">
+                            <button class="check-availability-btn">Check Availability</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="more-details">
+                    <h2 class="section-title">
+                        Product Details
+                    </h2>
+                    <p class="section-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit temporibus similique porro, adipisci alias ipsa repellendus repudiandae modi distinctio mollitia voluptatem amet id ut qui laudantium corrupti eligendi, voluptates impedit?
+                    </p>
+                    <h3 class="ingredients-title">Ingredients</h3>
+                    <div class="ingredients has-scrollbar">
+                        <div class="ingredient-item scrollbar-item">
+                            <img src="assets/images/mango.png" loading="lazy" alt="">
+                        </div>
+                        <div class="ingredient-item scrollbar-item">
+                            <img src="assets/images/mango.png" loading="lazy" alt="">
+                        </div>
+                        <div class="ingredient-item scrollbar-item">
+                            <img src="assets/images/mango.png" loading="lazy" alt="">
+                        </div>
+                    </div>
+                    <p class="ingredients-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, dolor dolore assumenda corporis rerum odit numquam provident officia a iusto temporibus at suscipit aliquid quod libero doloremque deleniti ipsum ullam.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- PRODUCT REVIEW -->
+        <section class="section product-review" data-section>
+            <div class="container">
+                <h2 class="section-title h2-large">
+                    Customer Review
+                </h2>
+                <div class="filter">
+                    <select class="filter-select">
+                        <option value="most-recent">Most Recent</option>
+                    </select>
+                </div>
+                <div class="reviews has-scrollbar">
+                    <div class="review-card-3 scrollbar-item">
+                        <div class="review-avatar">
+                            <img src="assets/images/profile-1.jpg" loading="lazy" alt="">
+                        </div>
+                        <div class="review-content">
+                            <h3 class="reviewer-name">Stephan S</h3>
+                            <div class="review-rating">★★★★★</div>
+                            <p class="review-text">Lorem ipsum dolor sit amet, con. </p>
+                        </div>
+                    </div>
+                    <div class="review-card-3 scrollbar-item">
+                        <div class="review-avatar">
+                            <img src="assets/images/profile-1.jpg" loading="lazy" alt="">
+                        </div>
+                        <div class="review-content">
+                            <h3 class="reviewer-name">Stephan S</h3>
+                            <div class="review-rating">★★★★★</div>
+                            <p class="review-text">Lorem ipsum dolor sit amet, con. </p>
+                        </div>
+                    </div>
+                    <div class="review-card-3 scrollbar-item">
+                        <div class="review-avatar">
+                            <img src="assets/images/profile-1.jpg" loading="lazy" alt="">
+                        </div>
+                        <div class="review-content">
+                            <h3 class="reviewer-name">Stephan S</h3>
+                            <div class="review-rating">★★★★★</div>
+                            <p class="review-text">Lorem ipsum dolor sit amet, con. </p>
+                        </div>
+                    </div>
+                    <div class="review-card-3 scrollbar-item">
+                        <div class="review-avatar">
+                            <img src="assets/images/profile-1.jpg" loading="lazy" alt="">
+                        </div>
+                        <div class="review-content">
+                            <h3 class="reviewer-name">Stephan S</h3>
+                            <div class="review-rating">★★★★★</div>
+                            <p class="review-text">Lorem ipsum dolor sit amet, con. </p>
+                        </div>
+                    </div>
+                    <div class="review-card-3 scrollbar-item">
+                        <div class="review-avatar">
+                            <img src="assets/images/profile-1.jpg" loading="lazy" alt="">
+                        </div>
+                        <div class="review-content">
+                            <h3 class="reviewer-name">Stephan S</h3>
+                            <div class="review-rating">★★★★★</div>
+                            <p class="review-text">Lorem ipsum dolor sit amet, con. </p>
+                        </div>
+                    </div>
+                    <div class="review-card-3 scrollbar-item">
+                        <div class="review-avatar">
+                            <img src="assets/images/profile-1.jpg" loading="lazy" alt="">
+                        </div>
+                        <div class="review-content">
+                            <h3 class="reviewer-name">Stephan S</h3>
+                            <div class="review-rating">★★★★★</div>
+                            <p class="review-text">Lorem ipsum dolor sit amet, con. </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="give-review-container">
+                    <div class="give-review">
+                        <input type="text" class="review-input" placeholder="Give Review">
+                        <button class="review-submit-btn">
+                            <i class="ri-arrow-right-s-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SHOP -->
+        <section class="section shop" data-section>
+            <div class="container">
+                <div class="title-wrapper">
+                    <h2 class="section-title h2">You may also like</h2>
+                </div>
+                <ul class="has-scrollbar">
+                    <li class="scrollbar-item">
+                        <div class="shop-card">
+                            <div class="card-banner img-holder" style="--width: 540; --height: 600;">
+                                <div class="card-actions">
+                                    <div class="action-text">
+                                        <p>(200 GM)</p>
+                                    </div>
+                                    <div class="action-btn">
+                                        <i class="ri-heart-3-line"></i>
+                                    </div>
+                                </div>
+                                <img src="assets/images/mango.png" loading="lazy" width="540" height="720" class="img-cover" alt="">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-text">
+                                    <div class="card-title-wrapper">
+                                        <a href="#" class="card-title">MANGO</a>
+                                        <img src="assets/images/veg.png" loading="lazy" width="20" height="20" alt="">
+                                    </div>
+                                    <div class="price">
+                                        <span>RS.100</span>
+                                    </div>
+                                </div>
+                                <div class="card-cart">
+                                    <i class="ri-shopping-cart-2-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="scrollbar-item">
+                        <div class="shop-card">
+                            <div class="card-banner img-holder" style="--width: 540; --height: 600;">
+                                <div class="card-actions">
+                                    <div class="action-text">
+                                        <p>(200 GM)</p>
+                                    </div>
+                                    <div class="action-btn">
+                                        <i class="ri-heart-3-line"></i>
+                                    </div>
+                                </div>
+                                <img src="assets/images/mango.png" loading="lazy" width="540" height="720" class="img-cover" alt="">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-text">
+                                    <div class="card-title-wrapper">
+                                        <a href="#" class="card-title">MANGO</a>
+                                        <img src="assets/images/veg.png" loading="lazy" width="20" height="20" alt="">
+                                    </div>
+                                    <div class="price">
+                                        <span>RS.100</span>
+                                    </div>
+                                </div>
+                                <div class="card-cart">
+                                    <i class="ri-shopping-cart-2-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="scrollbar-item">
+                        <div class="shop-card">
+                            <div class="card-banner img-holder" style="--width: 540; --height: 600;">
+                                <div class="card-actions">
+                                    <div class="action-text">
+                                        <p>(200 GM)</p>
+                                    </div>
+                                    <div class="action-btn">
+                                        <i class="ri-heart-3-line"></i>
+                                    </div>
+                                </div>
+                                <img src="assets/images/mango.png" loading="lazy" width="540" height="720" class="img-cover" alt="">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-text">
+                                    <div class="card-title-wrapper">
+                                        <a href="#" class="card-title">MANGO</a>
+                                        <img src="assets/images/veg.png" loading="lazy" width="20" height="20" alt="">
+                                    </div>
+                                    <div class="price">
+                                        <span>RS.100</span>
+                                    </div>
+                                </div>
+                                <div class="card-cart">
+                                    <i class="ri-shopping-cart-2-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="scrollbar-item">
+                        <div class="shop-card">
+                            <div class="card-banner img-holder" style="--width: 540; --height: 600;">
+                                <div class="card-actions">
+                                    <div class="action-text">
+                                        <p>(200 GM)</p>
+                                    </div>
+                                    <div class="action-btn">
+                                        <i class="ri-heart-3-line"></i>
+                                    </div>
+                                </div>
+                                <img src="assets/images/mango.png" loading="lazy" width="540" height="720" class="img-cover" alt="">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-text">
+                                    <div class="card-title-wrapper">
+                                        <a href="#" class="card-title">MANGO</a>
+                                        <img src="assets/images/veg.png" loading="lazy" width="20" height="20" alt="">
+                                    </div>
+                                    <div class="price">
+                                        <span>RS.100</span>
+                                    </div>
+                                </div>
+                                <div class="card-cart">
+                                    <i class="ri-shopping-cart-2-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="scrollbar-item">
+                        <div class="shop-card">
+                            <div class="card-banner img-holder" style="--width: 540; --height: 600;">
+                                <div class="card-actions">
+                                    <div class="action-text">
+                                        <p>(200 GM)</p>
+                                    </div>
+                                    <div class="action-btn">
+                                        <i class="ri-heart-3-line"></i>
+                                    </div>
+                                </div>
+                                <img src="assets/images/mango.png" loading="lazy" width="540" height="720" class="img-cover" alt="">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-text">
+                                    <div class="card-title-wrapper">
+                                        <a href="#" class="card-title">MANGO</a>
+                                        <img src="assets/images/veg.png" loading="lazy" width="20" height="20" alt="">
+                                    </div>
+                                    <div class="price">
+                                        <span>RS.100</span>
+                                    </div>
+                                </div>
+                                <div class="card-cart">
+                                    <i class="ri-shopping-cart-2-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="scrollbar-item">
+                        <div class="shop-card">
+                            <div class="card-banner img-holder" style="--width: 540; --height: 600;">
+                                <div class="card-actions">
+                                    <div class="action-text">
+                                        <p>(200 GM)</p>
+                                    </div>
+                                    <div class="action-btn">
+                                        <i class="ri-heart-3-line"></i>
+                                    </div>
+                                </div>
+                                <img src="assets/images/mango.png" loading="lazy" width="540" height="720" class="img-cover" alt="">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-text">
+                                    <div class="card-title-wrapper">
+                                        <a href="#" class="card-title">MANGO</a>
+                                        <img src="assets/images/veg.png" loading="lazy" width="20" height="20" alt="">
+                                    </div>
+                                    <div class="price">
+                                        <span>RS.100</span>
+                                    </div>
+                                </div>
+                                <div class="card-cart">
+                                    <i class="ri-shopping-cart-2-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="scrollbar-item">
+                        <div class="shop-card">
+                            <div class="card-banner img-holder" style="--width: 540; --height: 600;">
+                                <div class="card-actions">
+                                    <div class="action-text">
+                                        <p>(200 GM)</p>
+                                    </div>
+                                    <div class="action-btn">
+                                        <i class="ri-heart-3-line"></i>
+                                    </div>
+                                </div>
+                                <img src="assets/images/mango.png" loading="lazy" width="540" height="720" class="img-cover" alt="">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-text">
+                                    <div class="card-title-wrapper">
+                                        <a href="#" class="card-title">MANGO</a>
+                                        <img src="assets/images/veg.png" loading="lazy" width="20" height="20" alt="">
+                                    </div>
+                                    <div class="price">
+                                        <span>RS.100</span>
+                                    </div>
+                                </div>
+                                <div class="card-cart">
+                                    <i class="ri-shopping-cart-2-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+                <div class="btn-link">
+                    <div class="hl"></div>
+                    <a href="#" class="span">View all products<i class="ri-arrow-right-s-line"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ -->
+        <section class="section faq" data-section>
+            <div class="container">
+                <div class="section-title h2-large">FREQUENTLY ASKED QUESTIONS</div>
+                <div class="faq-wrapper">
+                    <div class="faq-header">
+                        <h2 class="faq-question"><span>01</span>how we work?</h2>
+                        <span class="faq-icon">
+                            <i class="ri-arrow-down-s-line"></i>
+                        </span>
+                    </div>
+                    <div class="faq-content">
+                        <div class="faq-answer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione atque quidem aspernatur quasi, enim repudiandae dolorem dolor quae cupiditate, nisi ut a minima tempora? Obcaecati culpa quos eligendi laborum dolorum?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-wrapper">
+                    <div class="faq-header">
+                        <h2 class="faq-question"><div class="span">02</div>how to contact the help & support team?</h2>
+                        <span class="faq-icon">
+                            <i class="ri-arrow-down-s-line"></i>
+                        </span>
+                    </div>
+                    <div class="faq-content">
+                        <div class="faq-answer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione atque quidem aspernatur quasi, enim repudiandae dolorem dolor quae cupiditate, nisi ut a minima tempora? Obcaecati culpa quos eligendi laborum dolorum?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-wrapper">
+                    <div class="faq-header">
+                        <h2 class="faq-question"><span>03</span>what is the return policy?</h2>
+                        <span class="faq-icon">
+                            <i class="ri-arrow-down-s-line"></i>
+                        </span>
+                    </div>
+                    <div class="faq-content">
+                        <div class="faq-answer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione atque quidem aspernatur quasi, enim repudiandae dolorem dolor quae cupiditate, nisi ut a minima tempora? Obcaecati culpa quos eligendi laborum dolorum?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-wrapper">
+                    <div class="faq-header">
+                        <h2 class="faq-question"><span>04</span>how trustable is this?</h2>
+                        <span class="faq-icon">
+                            <i class="ri-arrow-down-s-line"></i>
+                        </span>
+                    </div>
+                    <div class="faq-content">
+                        <div class="faq-answer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione atque quidem aspernatur quasi, enim repudiandae dolorem dolor quae cupiditate, nisi ut a minima tempora? Obcaecati culpa quos eligendi laborum dolorum?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" data-section>
+        <div class="container">
+            <div class="footer-top">
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title"><img src="assets/images/logo-white.png" loading="lazy" width="300px" height="40px" alt=""></p>
+                    </li>
+                    <li>
+                        <p class="footer-list-text">Pickles and Snacks for everyone, everywhere!! </p>
+                    </li>
+                    <li>
+                        <p class="footer-list-text">Made with <i class="ri-heart-fill"></i> in India</p>
+                    </li>
+                    <li>
+                        <p class="footer-list-text">+91 9539905870</p>
+                    </li>
+                    <li>
+                        <p class="footer-list-text">nallummasshop@gmail.com</p>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">Information & Support</p>
+                    </li>
+                    <li>
+                        <p class="footer-link">About Us</p>
+                    </li>
+                    <li>
+                        <p class="footer-link">Terms and Conditions</p>
+                    </li>
+                    <li>
+                        <p class="footer-link">Privacy Policy</p>
+                    </li>
+                    <li>
+                        <p class="footer-link">Refund policy</p>
+                    </li>
+                    <li>
+                        <p class="footer-link">Designer and Developer</p>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">Keep In Touch</p>
+                    </li>
+                    <li>
+                        <p class="footer-link">
+                            <i class="ri-mail-line"></i>
+                            nallummasshop@gmail.com
+                        </p>
+                    </li>
+                    <li>
+                        <p class="footer-link">
+                            <i class="ri-instagram-line"></i>
+                            @nallummas
+                        </p>
+                    </li>
+                    <li>
+                        <p class="footer-link">
+                            <i class="ri-facebook-circle-fill"></i>
+                            Nallummas salma 
+                        </p>
+                    </li>
+                    <li>
+                         <p class="footer-link">
+                            <i class="ri-twitter-fill"></i>
+                            @nallummas
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
